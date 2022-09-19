@@ -3,5 +3,23 @@
         "name": "api-key",
         "type": "api-key",
         "disabled": true
+    },
+    "custom-token": {
+        "name": "custom-token",
+        "type": "custom-token",
+        "config": {
+            "audience": [
+                "httpendpoint"
+            ],
+            "requireAnyAudience": false,
+            "signingAlgorithm": "HS256",
+            "useJWKURI": false
+        },
+        "secret_config": {
+            "signingKeys": [
+                "JWT_TOKEN_SECRET"
+            ]
+        },
+        "disabled": false
     }
 }

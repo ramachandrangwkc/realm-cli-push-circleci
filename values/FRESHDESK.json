@@ -1,0 +1,5 @@
+{
+    "name": "FRESHDESK",
+    "value": "FRESHDESK_TOKEN",
+    "from_secret": true
+}

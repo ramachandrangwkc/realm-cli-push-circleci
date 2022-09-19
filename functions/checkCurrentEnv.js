@@ -1,5 +1,5 @@
 exports = function(arg){
-  console.log(`The Env Value is ${JSON.stringify( context.environment.values)}}`);
+  console.log(`The Env Value is ${JSON.stringify( context.environment.values)} and the secret value is ${context.values.get("FRESHDESK")}`);
   console.log("Build pushed from circle ci")
    switch(context.environment.tag) {
     case "": {
