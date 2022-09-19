@@ -1,0 +1,11 @@
+[
+    {
+        "name": "checkCurrentEnv",
+        "private": false
+    },
+    {
+        "name": "healthcheck",
+        "private": false,
+        "disable_arg_logs": true
+    }
+]
