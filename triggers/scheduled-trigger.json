@@ -1,12 +1,11 @@
 {
-    "id": "63281d527ff91d2eb72a38b1",
     "name": "scheduled-trigger",
     "type": "SCHEDULED",
     "config": {
         "schedule": "*/1 * * * *",
         "skip_catchup_events": false
     },
-    "disabled": false,
+    "disabled": true,
     "event_processors": {
         "FUNCTION": {
             "config": {

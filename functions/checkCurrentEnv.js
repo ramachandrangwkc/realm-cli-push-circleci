@@ -1,7 +1,5 @@
 exports = function(arg){
-  var secret = context.values.get("FRESHDESK_TOKEN");
-  var envValue = context.values.get("CURRENT_ENV");
-  console.log(`The Secret and Env Value is ${secret} , ${envValue}`);
+  console.log(`The Env Value is ${JSON.stringify( context.environment.values)}}`);
   console.log("Build pushed from circle ci")
    switch(context.environment.tag) {
     case "": {
