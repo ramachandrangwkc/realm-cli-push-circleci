@@ -6,16 +6,16 @@ This project demonstract simple way to setup Mongodb Realm through CLI and Setup
 # Installation Setup
 The project requires few prerequsites to be setup and configured. 
 
-1. Mongodb Cluster need to set up and configured for the App services to connect it as a data source. Follow this [link](./MONGODB_CLUSTER.md) to setup a new Mongodb Cluster.
+1. Mongodb Cluster need to set up and configured for the App services to connect it as a data source. Follow this [link](MONGODB_CLUSTER.md) to setup a new Mongodb Cluster.
 
-2. Project API key needed to be created. The API key will be used to login the `realm-cli`. Follow this [link](./API_KEY.md) to create a new API Key.
+2. Project API key needed to be created. The API key will be used to login the `realm-cli`. Follow this [link](API_KEY.md) to create a new API Key.
 
 
 
 
 ## Run via CLI
 
-App Services needed to be created and configured. Follow this [link](./ATLAS_BACKEND.md) to create and deploy a App Services.
+App Services needed to be created and configured. Follow this [link](ATLAS_BACKEND.md) to create and deploy a App Services.
 
 
 ## Run via CIRCLE CI.
